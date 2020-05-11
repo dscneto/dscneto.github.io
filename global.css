@@ -1,2 +1,16 @@
+body
 {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+
+div.box
+{
+    margin-top: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+
+    text-align: center;
+
+    background-color: #FFF;
+    border-radius: 8px;
 }
