@@ -82,7 +82,7 @@ a:hover
   background-color:  #FAFAFA;
   border-radius: 8px;
 
-  padding: 1cm;
+  padding: 25px;
 }
 
 .site-title
@@ -97,7 +97,7 @@ a:hover
   font-style: italic;
   font-weight: lighter;
   text-align: center;
-  font-size: 2em;
+  font-size: 1em;
 }
 
 .img-portfolio
@@ -109,12 +109,28 @@ a:hover
 section
 {
   background-color: #FAFAFA;
+  padding-top: 32px;
+  padding: 16px;
+}
+
+section h3
+{
+  margin-left: 5px;
+  margin-bottom: 15px;
+}
+
+div.sep
+{
+  margin: 0;
+  background: #232323;
+  padding: 1px;
 }
 
 footer
 {
   background-color: #222222;
   text-align: center;
+  margin-top: 30px;
 }
 
 footer a
