@@ -1,301 +1,244 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-  <title>Dermeval Neto| Desenvolvedor Fullstack</title>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Dermeval Neto — Fullstack Developer</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=DM+Mono:wght@400;500&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet">
 
-   <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- HEADER -->
   <header>
-
-    <div class="logo"> dscneto <span>.dev</span> </div>
-
+    <div class="logo">NETO<span class="logo-dot">.</span>DEV</div>
     <nav>
       <a href="#sobre">Sobre</a>
       <a href="#projetos">Projetos</a>
       <a href="#contato">Contato</a>
     </nav>
-
+    <div class="nav-status">
+      <span class="status-dot"></span>
+      Disponível para projetos
+    </div>
   </header>
 
+  <!-- HERO -->
   <section class="hero">
+    <div class="hero-grid-lines"></div>
+    <div class="hero-number">FS</div>
 
-    <div>
+    <div class="hero-eyebrow">Fullstack Developer — Web & Mobile</div>
 
-      <div class="badge">
-        Desenvolvedor Fullstack • UI/UX • Mobile
-      </div>
+    <h1>
+      Design<br>
+      <em>que</em> funciona.<br>
+      Código<br>que importa.
+    </h1>
 
-      <h1>
-        Construindo
-        <span>produtos digitais</span>
-        modernos e funcionais.
-      </h1>
-
-      <p>
-        Desenvolvedor focado em sistemas web, aplicações mobile
-        e experiências digitais modernas.
-        Especializado na criação de plataformas personalizadas,
-        interfaces elegantes e soluções voltadas para problemas reais.
+    <div class="hero-bottom">
+      <p class="hero-desc">
+        Construo sistemas web e aplicações mobile que unem
+        performance real com identidade visual marcante.
+        Cada produto pensado do banco de dados até a interface.
       </p>
-
-      <div class="buttons">
-
-        <a href="#projetos" class="btn btn-primary">
-          Ver Projetos
-        </a>
-
-        <a href="https://github.com/dscneto"
-           target="_blank"
-           class="btn btn-secondary">
-          GitHub
-        </a>
-
+      <div class="hero-actions">
+        <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+        <a href="https://github.com/" target="_blank" class="btn btn-ghost">GitHub ↗</a>
       </div>
-
     </div>
-
-    <div class="hero-card">
-
-      <h3>Stack Tecnológica</h3>
-
-      <div class="stack">
-        <div class="tag">HTML</div>
-        <div class="tag">CSS</div>
-        <div class="tag">JavaScript</div>
-        <div class="tag">React</div>
-        <div class="tag">Node.js</div>
-        <div class="tag">Android</div>
-        <div class="tag">REST API</div>
-        <div class="tag">UI/UX</div>
-        <div class="tag">GitHub API</div>
-        <div class="tag">Firebase</div>
-      </div>
-
-    </div>
-
   </section>
 
+  <!-- MARQUEE -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span class="marquee-item">React</span>
+      <span class="marquee-item">Node.js</span>
+      <span class="marquee-item">Android</span>
+      <span class="marquee-item">Firebase</span>
+      <span class="marquee-item">REST API</span>
+      <span class="marquee-item">UI/UX Design</span>
+      <span class="marquee-item">GitHub API</span>
+      <span class="marquee-item">Fullstack</span>
+      <span class="marquee-item">HTML & CSS</span>
+      <span class="marquee-item">JavaScript</span>
+      <!-- duplicado para loop infinito -->
+      <span class="marquee-item">React</span>
+      <span class="marquee-item">Node.js</span>
+      <span class="marquee-item">Android</span>
+      <span class="marquee-item">Firebase</span>
+      <span class="marquee-item">REST API</span>
+      <span class="marquee-item">UI/UX Design</span>
+      <span class="marquee-item">GitHub API</span>
+      <span class="marquee-item">Fullstack</span>
+      <span class="marquee-item">HTML & CSS</span>
+      <span class="marquee-item">JavaScript</span>
+    </div>
+  </div>
+
+  <!-- SOBRE -->
   <section id="sobre">
-
-    <h2 class="section-title">
-      Sobre Mim
-    </h2>
-
-    <p class="section-description">
-      Transformando ideias em sistemas modernos,
-      intuitivos e escaláveis.
-    </p>
-
-    <div class="about-box">
-
-      Sou um desenvolvedor apaixonado por tecnologia,
-      design e criação de produtos digitais autorais.
-
-      Atualmente desenvolvo sistemas voltados para gestão,
-      ranking esportivo e aplicações mobile,
-      sempre buscando unir performance,
-      experiência do usuário e identidade visual moderna.
-
-      Meu foco é construir soluções reais,
-      funcionais e visualmente marcantes,
-      utilizando tecnologias modernas para web e mobile.
-
+    <div class="reveal">
+      <div class="section-label">Sobre</div>
+      <h2>
+        Quem<br>
+        <em>está por</em><br>
+        trás do código
+      </h2>
     </div>
 
-  </section>
-
-  <section id="projetos">
-
-    <h2 class="section-title">
-      Projetos em Destaque
-    </h2>
-
-    <p class="section-description">
-      Projetos reais desenvolvidos para resolver
-      problemas específicos através da tecnologia.
-    </p>
-
-    <div class="projects-grid">
-
-      <div class="project-card">
-
-        <div class="project-banner"></div>
-
-        <div class="project-content">
-
-          <h3>
-            Sistema para Academias
-          </h3>
-
-          <p>
-            Plataforma completa de gerenciamento para
-            academias de artes marciais,
-            incluindo alunos, mensalidades,
-            presença, graduações e controle administrativo.
-          </p>
-
-          <div class="project-tech">
-            <span>React</span>
-            <span>Node.js</span>
-            <span>Dashboard</span>
-            <span>REST API</span>
-          </div>
-
-          <div class="project-buttons">
-
-            <a href="#" class="btn btn-primary">
-              Ver Projeto
-            </a>
-
-            <a href="#" class="btn btn-secondary">
-              GitHub
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="project-card">
-
-        <div class="project-banner"></div>
-
-        <div class="project-content">
-
-          <h3>
-            Ranking Associação de Karatê
-          </h3>
-
-          <p>
-            Sistema de ranking interno desenvolvido
-            para gerenciamento de atletas,
-            pontuações, categorias e acompanhamento
-            de desempenho competitivo.
-          </p>
-
-          <div class="project-tech">
-            <span>React</span>
-            <span>Firebase</span>
-            <span>Ranking</span>
-            <span>Analytics</span>
-          </div>
-
-          <div class="project-buttons">
-
-            <a href="#" class="btn btn-primary">
-              Ver Projeto
-            </a>
-
-            <a href="#" class="btn btn-secondary">
-              GitHub
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-      <div class="project-card">
-
-        <div class="project-banner"></div>
-
-        <div class="project-content">
-
-          <h3>
-            GitHub Commit Tracker
-          </h3>
-
-          <p>
-            Aplicativo Android desenvolvido para
-            monitoramento de commits em repositórios GitHub,
-            permitindo acompanhar atividades e atualizações
-            em tempo real.
-          </p>
-
-          <div class="project-tech">
-            <span>Android</span>
-            <span>GitHub API</span>
-            <span>Mobile</span>
-            <span>Realtime</span>
-          </div>
-
-          <div class="project-buttons">
-
-            <a href="#" class="btn btn-primary">
-              Ver Projeto
-            </a>
-
-            <a href="#" class="btn btn-secondary">
-              GitHub
-            </a>
-
-          </div>
-
-        </div>
-
-      </div>
-
-    </div>
-
-  </section>
-
-  <section id="contato" class="contact">
-
-    <h2 class="section-title">
-      Vamos criar algo incrível?
-    </h2>
-
-    <p class="section-description" style="margin:auto;">
-      Aberto para novos projetos,
-      freelas e oportunidades.
-    </p>
-
-    <div class="contact-card">
-
-      <h3>
-        Entre em contato
-      </h3>
-
-      <p>
-        Disponível para desenvolvimento de sistemas,
-        aplicações web, aplicativos mobile e soluções digitais personalizadas.
+    <div class="about-right reveal">
+      <p class="about-text">
+        Sou desenvolvedor fullstack apaixonado por criar
+        <strong>produtos digitais com identidade própria</strong>.
+        Não separo código de design — pra mim, a experiência
+        do usuário começa no banco de dados e termina na animação
+        de um botão.
+        <br><br>
+        Atuo em sistemas web, aplicações mobile e plataformas
+        personalizadas para <strong>problemas reais</strong>.
+        Tenho um olho clínico para interface e um background em
+        artes marciais que me ensinou: <strong>disciplina,
+        precisão e eficiência</strong> não são só do tatame.
       </p>
 
-      <div class="buttons" style="justify-content:center;">
-
-        <a href="mailto:seuemail@email.com"
-           class="btn btn-primary">
-          Enviar Email
-        </a>
-
-        <a href="https://github.com/"
-           target="_blank"
-           class="btn btn-secondary">
-          GitHub
-        </a>
-
+      <div class="skills-grid">
+        <div class="skill-item">
+          <span class="skill-name">React</span>
+          <span class="skill-level">●●●●○</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Node.js</span>
+          <span class="skill-level">●●●●○</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Android Dev</span>
+          <span class="skill-level">●●●○○</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">Firebase</span>
+          <span class="skill-level">●●●●○</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">REST API</span>
+          <span class="skill-level">●●●●●</span>
+        </div>
+        <div class="skill-item">
+          <span class="skill-name">UI / UX</span>
+          <span class="skill-level">●●●●○</span>
+        </div>
       </div>
-
     </div>
-
   </section>
 
+  <!-- PROJETOS -->
+  <section id="projetos">
+    <div class="section-header reveal">
+      <h2>Projetos<br>em destaque</h2>
+      <div class="section-label">Trabalhos selecionados</div>
+    </div>
+
+    <div class="project-list">
+
+      <a href="#" class="project-item reveal">
+        <span class="project-num">001</span>
+        <div class="project-info">
+          <div class="project-name">Sistema para Academias</div>
+          <div class="project-desc">Plataforma completa: alunos, mensalidades, presença, graduações e controle administrativo.</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">REST API</span>
+          </div>
+          <span class="project-arrow">↗</span>
+        </div>
+      </a>
+
+      <a href="#" class="project-item reveal">
+        <span class="project-num">002</span>
+        <div class="project-info">
+          <div class="project-name">Ranking de Karatê</div>
+          <div class="project-desc">Sistema de ranking interno para atletas, pontuações, categorias e acompanhamento competitivo.</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Analytics</span>
+          </div>
+          <span class="project-arrow">↗</span>
+        </div>
+      </a>
+
+      <a href="#" class="project-item reveal">
+        <span class="project-num">003</span>
+        <div class="project-info">
+          <div class="project-name">GitHub Commit Tracker</div>
+          <div class="project-desc">App Android para monitoramento de commits em repositórios GitHub em tempo real.</div>
+        </div>
+        <div class="project-meta">
+          <div class="project-tags">
+            <span class="tag">Android</span>
+            <span class="tag">GitHub API</span>
+            <span class="tag">Realtime</span>
+          </div>
+          <span class="project-arrow">↗</span>
+        </div>
+      </a>
+
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <div class="contact-left reveal">
+      <div class="section-label">Contato</div>
+      <h2>
+        Vamos<br>
+        <span>construir</span><br>
+        algo juntos?
+      </h2>
+      <p>
+        Aberto para freelas, projetos longos e oportunidades.
+        Se você tem uma ideia e precisa de alguém que entende
+        tanto de código quanto de produto — fala comigo.
+      </p>
+      <a href="mailto:seuemail@email.com" class="btn btn-primary">Enviar Email</a>
+    </div>
+
+    <div class="contact-right reveal">
+      <div class="contact-links">
+        <a href="mailto:seuemail@email.com" class="contact-link">
+          <span class="contact-link-label">Email</span>
+          <span>seuemail@email.com ↗</span>
+        </a>
+        <a href="https://github.com/" target="_blank" class="contact-link">
+          <span class="contact-link-label">GitHub</span>
+          <span>github.com/neto ↗</span>
+        </a>
+        <a href="https://linkedin.com/" target="_blank" class="contact-link">
+          <span class="contact-link-label">LinkedIn</span>
+          <span>linkedin.com/in/neto ↗</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
   <footer>
-    © 2026 • Neto.dev • Todos os direitos reservados
+    <span class="footer-copy">© 2026 Dermeval Neto</span>
+    <span class="footer-made">Feito com <span>✦</span> em Vitória da Conquista</span>
   </footer>
 
+  <script src="script.js"></script>
 </body>
-
 </html>
